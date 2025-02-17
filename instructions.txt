@@ -1,0 +1,1 @@
+To run the code, enter in python main.py input.txt output.txt. (I made this in replit so you would run type the run funtion in the shell part.) I used pyhton to make this. 

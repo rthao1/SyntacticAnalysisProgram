@@ -1,0 +1,62 @@
+Tokens:
+IDENTIFIER z
+SYMBOL :=
+NUMBER 0
+SYMBOL ;
+IDENTIFIER x
+SYMBOL :=
+NUMBER 3
+SYMBOL ;
+IDENTIFIER y
+SYMBOL :=
+NUMBER 0
+SYMBOL ;
+KEYWORD while
+IDENTIFIER x
+SYMBOL -
+IDENTIFIER y
+KEYWORD do
+IDENTIFIER z
+SYMBOL :=
+IDENTIFIER z
+SYMBOL +
+IDENTIFIER y
+SYMBOL ;
+IDENTIFIER y
+SYMBOL :=
+IDENTIFIER y
+SYMBOL +
+NUMBER 1
+KEYWORD endwhile
+AST:
+SYMBOL ;
+    SYMBOL ;
+        SYMBOL ;
+            SYMBOL :=
+                IDENTIFIER z
+                NUMBER 0
+            SYMBOL :=
+                IDENTIFIER x
+                NUMBER 3
+        SYMBOL :=
+            IDENTIFIER y
+            NUMBER 0
+    WHILE-LOOP while
+        SYMBOL -
+            IDENTIFIER x
+            IDENTIFIER y
+        SYMBOL ;
+            SYMBOL :=
+                IDENTIFIER z
+                SYMBOL +
+                    IDENTIFIER z
+                    IDENTIFIER y
+            SYMBOL :=
+                IDENTIFIER y
+                SYMBOL +
+                    IDENTIFIER y
+                    NUMBER 1
+Output:
+z = 3
+x = 3
+y = 3

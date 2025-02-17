@@ -1,0 +1,8 @@
+z := 0;
+x := 3;
+y := 0;
+
+while x-y do
+  z := z + y;
+  y := y + 1
+endwhile
