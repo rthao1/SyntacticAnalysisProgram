@@ -1,1 +1,1 @@
-# SyntacticAnalysisProgram
+To run the code, enter in ```python main.py input.txt output.txt``` in the shall/terminal. This project uses three classes, "Scanner", "Parser", and "Evaluator" to read a text file of a set of code instructions to do as the class names suggest, scan, parse, and evaluate them.
